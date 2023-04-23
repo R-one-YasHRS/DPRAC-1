@@ -1,0 +1,23 @@
+1. for push create new repositry (download gitbash)
+
+a.copy the html folder to desktop,open it open git bash in it
+b.type git config --global user.name "username" (name of opened git hub account)
+c. type git config --global user.email " email" (email of github)
+c. type git clone https://github.com/brute910/rutu.git (a link like this will appear in repository in github)
+d. close gitbash
+e. copy the html files to the new folder created  and open the new folder
+f. type git status, the files must be in red
+g.type git add .
+.type git status (files must be green now)
+. type git commit -m "first"
+. type git push origin main (main or master depends on the terminal name given in bracket)
+
+2. pull
+-open one html file using notepad, edit it a lil n save it.
+-in git bash type git status n u will see the file updated in red
+-type git add . 
+-type git commit -m "updated file"
+-type git push -u origin main
+-refresh git hub n u see the file, open it u see the updated code
+-now to get in in ur local  type git pull origin main
+
